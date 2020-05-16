@@ -1,0 +1,81 @@
+[debug] [2020-10-20T10:48:51.034Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:48:51.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karthik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-20T10:48:51.036Z] CLI Version:   8.12.1
+[debug] [2020-10-20T10:48:51.036Z] Platform:      win32
+[debug] [2020-10-20T10:48:51.036Z] Node Version:  v12.16.1
+[debug] [2020-10-20T10:48:51.037Z] Time:          Tue Oct 20 2020 16:18:51 GMT+0530 (India Standard Time)
+[debug] [2020-10-20T10:48:51.037Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:48:51.038Z] 
+[debug] [2020-10-20T10:48:51.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-20T10:48:51.045Z] > authorizing via signed-in user
+[debug] [2020-10-20T10:48:51.045Z] [iam] checking project netflix-clone-react-main for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-20T10:48:51.048Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-react-main:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-20T10:48:52.465Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:48:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1173","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-20T10:48:52.466Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-react-main  
+ 
+[debug] [2020-10-20T10:48:52.841Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:48:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'netflix-clone-react-main'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-10-20T10:48:52.851Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/netflix-clone-react-main/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-10-20T10:49:14.158Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2020-10-20T10:49:18.469Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:49:18.470Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karthik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-20T10:49:18.471Z] CLI Version:   8.12.1
+[debug] [2020-10-20T10:49:18.471Z] Platform:      win32
+[debug] [2020-10-20T10:49:18.471Z] Node Version:  v12.16.1
+[debug] [2020-10-20T10:49:18.472Z] Time:          Tue Oct 20 2020 16:19:18 GMT+0530 (India Standard Time)
+[debug] [2020-10-20T10:49:18.472Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:49:18.472Z] 
+[debug] [2020-10-20T10:49:18.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-20T10:49:18.479Z] > authorizing via signed-in user
+[debug] [2020-10-20T10:49:18.479Z] [iam] checking project netflix-clone-react-main for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-20T10:49:18.482Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-react-main:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-20T10:49:19.899Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:49:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1131","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-20T10:49:19.900Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-react-main  
+ 
+[debug] [2020-10-20T10:49:20.254Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:49:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'netflix-clone-react-main'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-10-20T10:49:20.262Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/netflix-clone-react-main/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-10-20T10:49:41.567Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2020-10-20T10:49:52.025Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:49:52.026Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karthik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-20T10:49:52.027Z] CLI Version:   8.12.1
+[debug] [2020-10-20T10:49:52.027Z] Platform:      win32
+[debug] [2020-10-20T10:49:52.027Z] Node Version:  v12.16.1
+[debug] [2020-10-20T10:49:52.028Z] Time:          Tue Oct 20 2020 16:19:52 GMT+0530 (India Standard Time)
+[debug] [2020-10-20T10:49:52.028Z] ----------------------------------------------------------------------
+[debug] [2020-10-20T10:49:52.028Z] 
+[debug] [2020-10-20T10:49:52.036Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-20T10:49:52.036Z] > authorizing via signed-in user
+[debug] [2020-10-20T10:49:52.036Z] [iam] checking project netflix-clone-react-main for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-20T10:49:52.039Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-react-main:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-20T10:49:53.290Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:49:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1128","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-20T10:49:53.291Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-react-main  
+ 
+[debug] [2020-10-20T10:49:53.698Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 20 Oct 2020 10:49:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'netflix-clone-react-main'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-10-20T10:49:53.707Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/netflix-clone-react-main/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-10-20T10:50:15.010Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443

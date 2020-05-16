@@ -1,0 +1,20 @@
+{
+  "name": "netflix-clone-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.20.0",
+    "movie-trailer": "^2.0.6",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-youtube": "^7.12.0"
+  }
+}
