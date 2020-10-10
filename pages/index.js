@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div className="app">
       <Nav />
-      <Banner />{" "}
+      <Banner />
+      {""}
       <Row
         title="NETFLIX ORIGINALS"
         isLargeRow
